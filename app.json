@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "temp-expo",
-    "slug": "temp-expo",
+    "name": "emergent-ai-studio",
+    "slug": "emergent-ai-studio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
