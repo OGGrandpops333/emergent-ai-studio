@@ -31,6 +31,15 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="experiments"
+        options={{
+          title: 'Experiments',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? 'flask' : 'flask-outline'} size={24} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="models"
         options={{
           title: 'Models',
