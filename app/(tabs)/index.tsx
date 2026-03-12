@@ -58,7 +58,7 @@ export default function HomeScreen() {
       icon: 'flask-outline',
       title: 'Experiments',
       description: 'Run and track AI experiments and evaluations',
-      onPress: () => router.push('/models'),
+      onPress: () => router.push('/experiments'),
       color: '#10b981',
     },
     {
